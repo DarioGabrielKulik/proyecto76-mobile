@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(241, 100%, 89%);
+}
+
+main {
+    width: 25rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.section {
+    background: linear-gradient(hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    border-radius: 3rem;
+    height: 30rem;
+    position: relative;
+    top: 3rem;
+    color: white;
+}
+
+.section2 {
+    background-color: white;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius:2rem ;
+    justify-content: center;
+    
+}
+
+
+.lista1 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.resultado{
+    margin-top:2rem ;
+    margin-bottom: 2rem;
+    font-weight:500 ;
+}
+
+.l76{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.parrafo{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 800;
+}
+.parrafo2{
+font-size: 1rem;
+font-weight: 500;
+}
+
+.excelente{
+    font-weight: 500;
+    font-size: 1.7rem ;
+    margin-top: 3rem;
+}
+
+.texto{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.resumen{
+margin-top: 50px;
+font-size: 1.6rem;
+font-weight: 500;
+margin-left: 20px;
+}
+
+.tabla {
+   margin-left: 25px;
+   margin-top: 30px;
+   font-size: 1.3rem;
+   line-height: 20px;
+   width: 200px;
+     
+}
+
+span{
+    display: inline-block;    
+}
+.icono{
+    width: 15px;
+    margin-right: 5px;
+    position: relative;
+    top:3px;
+    
+}
+
+.fondo-1{
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 40%, 90%);
+    border-radius: 5px;
+    padding: 2px;
+    position: relative;
+    bottom: 10px;                     
+}
+
+.fondo-2{
+    color: hsl(39, 100%, 56%);
+    background-color:hsl(39, 40%, 90%);
+    border-radius: 5px; 
+    padding: 2px;
+      
+        
+}
+
+.fondo-3{
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 40%, 90%);
+    border-radius: 5px; 
+    position: relative;
+    top: 10px; 
+    padding: 2px;   
+}
+
+.fondo-4{
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 40%, 90%);
+    border-radius: 5px; 
+    position: relative;
+    top: 20px;   
+    padding: 2px;  
+}
+
+
+.medicion-1{
+    margin-left: 80px;
+    font-weight: 500;
+    color: rgb(79, 78, 78);
+}
+.medicion-2{
+    margin-left: 81px;
+    font-weight: 500;
+    color: rgb(79, 78, 78);
+}
+.medicion-3{
+    margin-left: 94px;
+    font-weight: 500;
+    color: rgb(79, 78, 78);
+}
+.medicion-4{
+    margin-left: 97px;
+    font-weight: 500;
+    color: rgb(79, 78, 78);
+    
+}
+.boton{
+    width: 21rem;
+    height: 4rem;
+    margin-bottom: 3rem; 
+    margin-left: 2rem; 
+    margin-top: 5rem; 
+    border-radius: 3rem;
+    border: 0;
+    background-color:rgb(56, 56, 85) ;
+    color: white;
+    font-size: 1.4rem;
+}
